@@ -1,0 +1,20 @@
+<button onclick="shuffler1()">IM/IC List</button>
+<button onclick="shuffler2()">Dev/Content/QA list</button>
+
+<div id="speakerBox"></div>
+
+
+<script>
+    function *shuffle(arr) {
+        var arrLen = arr.length;
+        while (arrLen--) {
+            yield arr.splice(Math.floor(Math.random() * (arrLen+1)), 1)[0];
+        }
+    }
+
+    var speakers1 = shuffle(['Julia Joachimowicz', 'Emma Mallon', 'Jen Grajkowski', 'Jennifer Guo', 'Luis Díaz', 'Julianna Hindemith', 'Eduardo Arrangóiz']);
+    var speakers2 = shuffle(['Abner Rojas', 'Augusto Pavía Rosas', 'Cesar Villegas', 'Michael Li', 'Jéssica Motta', 'Kathryn Robertson',  'Marcos Herrera', 'Shaun Seeram',  'Enrique Lozano', 'Filip Swierczynski', 'Joao Dantas', 'Robert Ling'])
+
+    let shuffler1= ()=>{document.getElementById("speakerBox").innerHTML = speakers1.next().value;}
+    let shuffler2= ()=>{document.getElementById("speakerBox").innerHTML = speakers2.next().value;}
+</script>
