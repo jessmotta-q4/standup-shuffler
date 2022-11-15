@@ -1,4 +1,4 @@
-# Standup Shuffler Example
+# Standup Shuffler
 ## Competition to create the ultimate queuing tool
 
 ### Goal
@@ -12,7 +12,7 @@
 - Create your project in a new repo and then add an entry to [this Google sheet](https://docs.google.com/spreadsheets/d/1M9IfYcLvBnBilfIAnkj0p_OiVk7aYQP1_cawptkw188/edit#gid=0) when you are ready to submit. I will check it each morning.
 
 ### Requirements
-- The list of IMs and ICs must come before the list of Developers, Content, and QA. 
+- The list of IMs and ICs must come before the list of Developers, Content, and QA (See example in _src folder). 
 - Never repeat a squad member's name.
 - The list(s) must be unique each time the application is run.
 - Provide a README for your repo with a little description of your project. 
