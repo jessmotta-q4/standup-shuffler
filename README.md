@@ -9,10 +9,10 @@
 - Get creative with it!
 
 ### Instructions
-- Create your project in a new repo and then add an entry to [THIS SHEET](https://docs.google.com/spreadsheets/d/1M9IfYcLvBnBilfIAnkj0p_OiVk7aYQP1_cawptkw188/edit#gid=0) when you are ready to submit. I will check it each morning and set up a new submission before each standup as they come up. 
+- Create your project in a new repo and then add an entry to [THIS SHEET](https://docs.google.com/spreadsheets/d/1M9IfYcLvBnBilfIAnkj0p_OiVk7aYQP1_cawptkw188/edit#gid=0) when you are ready to submit. I will check it each morning.
 
 ### Requirements
 - The list of IMs and ICs must come before the list of Developers, Content, and QA. 
 - Never repeat a squad member's name.
 - The list(s) must be unique each time the application is run.
-- Provide README for your directory with a little explanation of what you did and why. 
+- Provide a README for your repo with a little description of your project. 
