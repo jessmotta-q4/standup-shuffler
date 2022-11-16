@@ -1,0 +1,43 @@
+/* ----------------------
+        VARIABLES
+---------------------- */
+body {
+  background-color: #FEFEFE;
+  font-family: "Open Sans", sans-serif;
+  color: #2A3035;
+}
+
+.logo {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  height: 100px;
+}
+
+.buttons-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px auto;
+}
+
+.button-cta {
+  max-height: 50px;
+  padding: 16px 14px;
+  background-color: #0F5CA3;
+  border: none;
+  color: #FFF;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+.button-cta:hover {
+  background-color: #1ABC9C;
+  transition: all 0.3s ease-in-out;
+}
+
+#speakerBox {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */

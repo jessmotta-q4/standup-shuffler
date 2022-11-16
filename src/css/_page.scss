@@ -1,0 +1,43 @@
+body{
+    background-color: $background-color;
+    font-family: $font-family;
+    color: $font-color;
+}
+
+.logo {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  height: 100px;
+}
+
+.buttons-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+
+.button{
+    &-cta{
+        max-height: 50px;
+        padding: 16px 14px;
+        background-color: $button-color;
+        border: none;
+        color: $button-font-color;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: 400;
+        cursor: pointer;
+
+        &:hover{
+            background-color: $button-hover;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
+
+#speakerBox{
+    display: flex;
+    justify-content: center;
+}
