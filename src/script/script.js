@@ -57,7 +57,7 @@ let shuffler = () => {
       document.getElementById("speakerJob").innerHTML = "";
       document
         .getElementById("speakerImage")
-        .setAttribute("src", "src/img/finished_list.jpg");
+        .setAttribute("src", "src/img/finish.jpg");
     }
   }
 };
