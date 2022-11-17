@@ -5,7 +5,10 @@
 
 #Welcome to Q4 crew!
 
-This website will help to decide the order of speakers in Diamond Hands's standup.
-Click on the button and see you goes next!
+This website will help to decide the order of speakers in Diamond Hands' standup.
+
+Click on the link and let's go!
+
+[Diamond Hands' Standup](https://standup-shuffler-chi.vercel.app/)
 
 
