@@ -17,11 +17,13 @@ body {
 .buttons-container {
   width: 50%;
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
-  margin: 50px auto;
+  margin: 100px auto;
 }
 
 .button-cta {
+  min-width: 190px;
   max-height: 50px;
   padding: 16px 14px;
   background-color: #0F5CA3;
@@ -37,7 +39,37 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-#speakerBox {
+.speakers {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#speakerName {
+  margin-bottom: 30px;
+  color: #0F5CA3;
+  text-align: center;
+}
+
+#speakerImage {
   display: flex;
   justify-content: center;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .buttons-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 50px auto;
+  }
+  #speakerImage {
+    width: 200px;
+    height: 200px;
+  }
 }/*# sourceMappingURL=main.css.map */

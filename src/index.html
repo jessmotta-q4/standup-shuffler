@@ -12,6 +12,7 @@
 <body>
     <header>
         <img class="logo" src="img/logo_q4_crew.png" />
+        <!-- <button class="button-cta" onclick="restart()">Restart</button> -->
     </header>
 
     <main>
@@ -19,43 +20,12 @@
             <button class="button-cta" onclick="shuffler1()">IM/IC List</button>
             <button class="button-cta" onclick="shuffler2()">Dev/Content/QA list</button>
         </div>
-        <div>
-            <!-- <img src="img/Abner.png"/> -->
-            <div id="speakerBox"></div>
+        <div class="speakers">
+            <h1 id="speakerName"></h1>
+            <img id="speakerImage" src="/src/img/start.png"/>
         </div>
     </main>
 
 </body>
-
+<script src="/src/script/script.js"></script>
 </html>
-
-
-<script>
-    function* shuffle(arr) {
-        var arrLen = arr.length;
-        while (arrLen--) {
-            yield arr.splice(Math.floor(Math.random() * (arrLen + 1)), 1)[0];
-        }
-    }
-
-    let value1 = 0;
-    let value2 = 0;
-    var speakers1 = shuffle(['Julia Joachimowicz', 'Emma Mallon', 'Jen Grajkowski', 'Jennifer Guo', 'Luis Díaz', 'Julianna Hindemith', 'Eduardo Arrangóiz']);
-    var speakers2 = shuffle(['Abner Rojas', 'Augusto Pavía Rosas', 'Cesar Villegas', 'Michael Li', 'Jéssica Motta', 'Kathryn Robertson', 'Marcos Herrera', 'Shaun Seeram', 'Enrique Lozano', 'Filip Swierczynski', 'Joao Dantas', 'Robert Ling'])
-
-    let shuffler1 = () => {
-        value1 = speakers1.next().value;
-        if(typeof value1 !== 'undefined'){
-            document.getElementById("speakerBox").innerHTML = value1;
-        } else if (typeof value1 === 'undefined'){
-            document.getElementById("speakerBox").innerHTML = "Finished list";
-        }
-    }
-    let shuffler2 = () => { 
-        value2 = speakers2.next().value;
-        if(typeof value2 !== 'undefined'){
-            document.getElementById("speakerBox").innerHTML = value2;
-        } else if (typeof value2 === 'undefined'){
-            document.getElementById("speakerBox").innerHTML = "Finished list";
-        } }
-</script>
