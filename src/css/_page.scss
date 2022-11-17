@@ -16,7 +16,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 100px auto;
+    margin: 80px auto;
 }
 
 .button{
@@ -43,12 +43,15 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 #speakerName{
-  margin-bottom: 30px;
-  color: $brand-color;
-  text-align: center;
+    color: $brand-color;
+}
+
+#speakerJob{
+    margin-bottom: 50px;
 }
 
 

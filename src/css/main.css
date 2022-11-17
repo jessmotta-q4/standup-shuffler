@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 100px auto;
+  margin: 80px auto;
 }
 
 .button-cta {
@@ -43,12 +43,15 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 #speakerName {
-  margin-bottom: 30px;
   color: #0F5CA3;
-  text-align: center;
+}
+
+#speakerJob {
+  margin-bottom: 50px;
 }
 
 #speakerImage {
